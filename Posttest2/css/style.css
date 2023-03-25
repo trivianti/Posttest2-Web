@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+}
+
+header {
+    background-color: rgb(217, 149, 76);
+    color: white;
+    position: center;
+    padding: 10px 0 10px 60px;
+    font-family: copperplate;
+}
+
+nav {
+    background-color: rgb(148, 114, 64);
+    padding: 10px 0 10px 40px;
+    font-family: sans-serif;
+}
+
+#showcase{
+    padding: 200px 20px 10px 20px;
+    font-size: 20px;
+    min-height: 200px;
+    text-align: center;
+    color: wheat;
+    background: url('../img/perpus.jpg');
+}
+
+.text h3 {
+    text-align: justify;
+    padding: 20px 20px 10px 20px;
+}
+
+.jam {
+    padding: 10px 20px 10px 20px;
+}
+
+ul, a{
+    color: white;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+#list {
+    padding: 20px 0 20px 40px;
+    text-align: center;
+}
+
+form {
+    background-color: rgb(232, 215, 189);
+    padding: 20px 40px 40px 40px;
+    margin: 40px 250px;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 60px;
+    color: white;
+    background-color: rgb(217, 149, 76);
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+}
+
+#main .bio {
+    color: black;
+    background-color: rgb(232, 215, 189);
+    padding: 10px 0 40px 40px;
+    margin: 40px 350px;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+.bio h3 {
+    text-align: center;
+    background-color: rgb(232, 215, 189);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 40px 0 0 200px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+
+.btn {
+    color: black;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.daftar {
+    color: blue;
+}
+
+.login {
+    color: blue;
+}

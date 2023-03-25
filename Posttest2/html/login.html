@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale" />
+        <link rel="stylesheet" href="../css/style.css">
+        <title>PERPUSTAKAAN | Login</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>PERPUSTAKAAN PINTAR</h1>
+        </header>
+        <nav>
+            <ul>
+                <a href="daftar.html">DAFTAR</a>
+                <a href="login.html">LOGIN</a>
+                <a href="beranda.html">BERANDA</a></li>
+                <a href="koleksi.html">KOLEKSI</a></li>
+                <a href="keanggotaan.html">KEANGGOTAAN</a></li>
+                <a href="tentang.html">TENTANG</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <form class="form" id="form">
+                <p class="heading">LOGIN</p><br>
+                <input type="text" class="input" placeholder="Email" id="email" required>
+                <input type="password" class="input" placeholder="Password" id="pass" required>
+                <button type="submit" class="submit" id="submit" onclick="login()">Login</button><br>
+                <br>
+                <p>Belum punya akun? <a class="daftar" href="daftar.html">Daftar</p>
+            </form>
+        </div>
+
+        <footer>
+            <p>Hak Cipta 2023 @perpustakaanpintar</p>
+        </footer>
+
+    </body>
+    <script src="../js/login.js"></script>
+</html>

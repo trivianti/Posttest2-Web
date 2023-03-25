@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale" />
+        <link rel="stylesheet" href="../css/style.css">
+        <title>PERPUSTAKAAN | Daftar</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>PERPUSTAKAAN PINTAR</h1>
+        </header>
+        <nav>
+            <ul>
+                <a href="daftar.html">DAFTAR</a>
+                <a href="login.html">LOGIN</a>
+                <a href="beranda.html">BERANDA</a></li>
+                <a href="koleksi.html">KOLEKSI</a></li>
+                <a href="keanggotaan.html">KEANGGOTAAN</a></li>
+                <a href="tentang.html">TENTANG</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <form id="form" class="form">
+                <p class="heading">DAFTAR</p><br>
+                <input type="text" class="input" placeholder="Nama" id="daf_nama" required>
+                <input type="password" class="input" placeholder="Password" id="daf_pw" required>
+                <input type="email" class="input" placeholder="Email" id="daf_email" required>
+                <button type="submit" class="submit" id="submit">Daftar</button>
+                <table>
+
+                    <tbody id="result">
+                         
+                    </tbody>
+                </table>
+                <br>
+                <p>Sudah punya akun? <a class="login" href="login.html">Login</p>
+            </form>
+        </div>
+
+        <footer>
+            <p>Hak Cipta 2023 @perpustakaanpintar</p>
+        </footer>
+
+    </body>
+    <script src="../js/daftar.js"></script>
+</html>

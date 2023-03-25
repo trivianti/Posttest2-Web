@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale" />
+        <link rel="stylesheet" href="../css/style.css">
+        <title>PERPUSTAKAAN | Keanggotaan</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>PERPUSTAKAAN PINTAR</h1>
+        </header>
+        <nav>
+            <ul>
+                <a href="beranda.html">BERANDA</a></li>
+                <a href="koleksi.html">KOLEKSI</a></li>
+                <a href="keanggotaan.html">KEANGGOTAAN</a></li>
+                <a href="tentang.html">TENTANG</a></li>
+            </ul>
+        </nav>
+
+        <section id="daftar">
+            <div class="container">
+                <form>
+                    <h2>PENDAFTARAN ONLINE ANGGOTA PERPUSTAKAAN</h2>
+                    <br>
+                    <label for="text">Nama:</label><br>
+                    <input type="text" id="nm" name="nm"><br>
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <br>
+                    <label for="almt">Alamat:</label><br>
+                    <textarea
+                        rows="3"
+                        cols="30"
+                    id="almt" name="almt"></textarea><br>
+                    <label for="gender">Jenis Kelamin:</label><br>
+                    <select id="gender" name="gender">
+                        <option value="Perempuan">Perempuan</option>
+                        <option value="Laki-Laki">Laki-Laki</option>
+                    </select>
+                    <br><br>
+                    <label for="radio">Jenis Keanggotaan:</label><br>
+                    <input type="radio" id="umum" name="radio" value="umum"> Umum<br>
+                    <input type="radio" id="pegawai" name="radio" value="pegawai"> Pegawai<br>
+                    <input type="radio" id="mahasiswa" name="radio" value="mahasiswa"> Mahasiswa<br>
+                    <br>
+                    <label for="checkbox">Jenis Buku Yang Diminati:</label><br>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="Pendidikan"> Pendidikan<br>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="Sejarah"> Sejarah<br>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="Teknologi"> Teknologi<br>
+                    <input type="checkbox" name="checkbox" id="checkbox" value="Fiksi"> Fiksi<br>
+                    <br>
+                    <a class="btn" onclick="simpan()" href="form.html">Submit</a>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>Hak Cipta 2023 @perpustakaanpintar</p>
+        </footer>
+    </body>
+    <script src="../js/keanggotaan.js"></script>
+</html>
